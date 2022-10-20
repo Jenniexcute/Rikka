@@ -7,7 +7,7 @@ exports.run = {
       isPrefix
    }) => {
       try {
-      let captions = ` ❑  *I N F O - B O T*\n\n◦  Sistem otomatis (WhatsApp Bot) yang dapat membantu untuk melakukan sesuatu, mencari dan mendapatkan data/informasi hanya melalui WhatsApp.\n\n❑ *N O T E* \n\n◦   Gunakan bot di private message agar bot merespon dengan cepat, \n\n◦  Beri jeda  yah kak ｡⁠◕⁠‿⁠◕⁠｡\nSource code: https://youtu.be/MGDsPKQFVAo
+      let captions = ` ❑  *I N F O - B O T*\n\n◦  An automated system (WhatsApp Bot) that can help to do things, search and get data/information only through WhatsApp.\n\n❑ *N O T E* \n\n◦ Use bots in private messages so that bots respond quickly, \n\ n Give it a pause, sis \nSource code:
  ❑  *U S E R - I N F O*
       
 ◦  ${isPrefix}limit 
