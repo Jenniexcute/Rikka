@@ -174,9 +174,9 @@ exports.run = {
 ◦ Swift
 ◦ FARUQOFC`
       client.sendMessageModify(m.chat, captions, m, {
-               title: 'Rikka bot',
+               title: 'Tzuyu...🥀',
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d5c31ad3dfeb93c67171c.jpg'),
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/a281cc76d129fcaad665d.jpg'),
                url: 'https://wa.me/94726083178'
             })
       } catch (e) {
