@@ -169,14 +169,15 @@ exports.run = {
 ◦  ${isPrefix}owner 
 ◦  ${isPrefix}premium 
 ◦  ${isPrefix}runtime
+
 ❑ *T Q - T O*
 ◦ Swift
 ◦ FARUQOFC`
       client.sendMessageModify(m.chat, captions, m, {
-               title: 'Kanna bot',
+               title: 'Rikka bot',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d5c31ad3dfeb93c67171c.jpg'),
-               url: ''
+               url: 'https://wa.me/94726083178'
             })
       } catch (e) {
          client.reply(m.chat, Func.jsonFormat(e), m)
