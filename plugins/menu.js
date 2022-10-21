@@ -174,10 +174,10 @@ exports.run = {
 ◦ Swift
 ◦ FARUQOFC`
       client.sendMessageModify(m.chat, captions, m, {
-               title: 'Tzuyu...🌷',
+               title: 'Here is my main menu...🌷',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/f88b7db92a75ff1d2bb8d.jpg'),
-               url: 'https://wa.me/94726083178'
+               url: 'https://chat.whatsapp.com/FKB3BjBGMYjBJZfJXjEAOa'
             })
       } catch (e) {
          client.reply(m.chat, Func.jsonFormat(e), m)
