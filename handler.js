@@ -133,10 +133,10 @@ module.exports = async (client, m) => {
             if (setting.pluginDisable.includes(name)) return client.reply(m.chat, Func.texted('bold', `🚩 Plugin disabled by Owner.`), m)
             if (!m.isGroup && !['owner', 'create_bot'].includes(name) && chats && !isPrem && !users.banned && new Date() * 1 - chats.lastchat < global.timer) continue
             if (!m.isGroup && !['owner', 'create_bot'].includes(name) && chats && !isPrem && !users.banned && setting.groupmode) return client.sendMessageModify(m.chat, `Untuk bisa menggunakan bot di personal chat (PC) kamu harus mempunyai limits minimal *Rp. 5000* atau cara cepat dengan upgrade ke premium user.\n\nJika ingin upgrade ke premium silahkan masuk ke grup ini dan kirim *${prefixes[0]}owner*`, m, {
-               title: 'Maaf akses di tolak',
+               title: 'Honey! Why are you here? 🌹',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/5b41c6d53b226403e8c9a.jpg'),
-               url: 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+               url: 'https://chat.whatsapp.com/FKB3BjBGMYjBJZfJXjEAOa'
             }).then(() => chats.lastchat = new Date() * 1)
             if (!['me', 'owner'].includes(name) && users && (users.banned || new Date - users.banTemp < global.timer)) return
             if (m.isGroup && !['activation'].includes(name) && groupSet.mute) continue
@@ -212,10 +212,10 @@ module.exports = async (client, m) => {
             if (setting.pluginDisable.includes(name)) continue
             if (!m.isGroup && chats && !isPrem && !users.banned && new Date() * 1 - chats.lastchat < global.timer) continue
             if (!m.isGroup && chats && !isPrem && !users.banned && setting.groupmode) return client.sendMessageModify(m.chat, `Untuk bisa menggunakan bot di personal chat (PC) kamu harus mempunyai limits minimal *Rp. 5000* atau cara cepat dengan upgrade ke premium user.\n\nJika ingin upgrade ke premium silahkan masuk ke grup ini dan kirim *${prefixes[0]}owner*`, m, {
-               tiltle: 'Maaf akses di tolak',
+               tiltle: 'Honey! you are very bad! 😣',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/5b41c6d53b226403e8c9a.jpg'),
-               url: 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+               url: 'https://chat.whatsapp.com/FKB3BjBGMYjBJZfJXjEAOa'
             }).then(() => chats.lastchat = new Date() * 1)
             if (setting.self && !['chatAI', 'exec'].includes(name) && !isOwner && !m.fromMe) continue
             if (!m.isGroup && ['chatAI'].includes(name) && body && Func.socmed(body)) continue
