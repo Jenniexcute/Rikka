@@ -159,18 +159,18 @@ const connect = async () => {
          }
          let txt = (groupSet.text_welcome != '' ? groupSet.text_welcome : text_welcome).replace('+tag', `@${member.split`@`[0]}`).replace('+grup', `${meta.subject}`)
          if (groupSet.welcome) client.sendMessageModify(room.id, txt, null, {
-            title: 'Yah beban group nambah lagi',
+            title: 'Honey! how are you?',
             largeThumb: true,
             thumbnail: pic,
-            url: 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+            url: 'https://chat.whatsapp.com/FKB3BjBGMYjBJZfJXjEAOa'
          })
       } else if (room.action == 'remove') {
          let txt = (groupSet.text_left != '' ? groupSet.text_left : text_left).replace('+tag', `@${member.split`@`[0]}`).replace('+grup', `${meta.subject}`)
          if (groupSet.left) client.sendMessageModify(room.id, txt, null, {
-            title: 'Yey beban group keluar',
+            title: 'Do not come again!',
             largeThumb: true,
             thumbnail: pic,
-            url: 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+            url: 'https://chat.whatsapp.com/FKB3BjBGMYjBJZfJXjEAOa'
          })
       }
    })
