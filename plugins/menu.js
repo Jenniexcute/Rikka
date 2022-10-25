@@ -169,12 +169,9 @@ exports.run = {
 ◦  ${isPrefix}owner 
 ◦  ${isPrefix}premium 
 ◦  ${isPrefix}runtime
-
-❑ *T Q - T O*
-◦ Swift
-◦ FARUQOFC`
+`
       client.sendMessageModify(m.chat, captions, m, {
-               title: 'Here is my main menu...🌷',
+               title: 'Soobin with love!...🌷',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/f88b7db92a75ff1d2bb8d.jpg'),
                url: 'https://chat.whatsapp.com/FKB3BjBGMYjBJZfJXjEAOa'
@@ -183,5 +180,16 @@ exports.run = {
          client.reply(m.chat, Func.jsonFormat(e), m)
       }
    },
+    message: { 
+                                "videoMessage": { 
+                                "title": `Soobin!`,
+                                "h": `Miku`,
+                                'duration': '99999', 
+                                'gifPlayback': 'true', 
+                                'caption': `Tzuyu`,
+                                'jpegThumbnail': fs.readFileSync('./media/lucky.mp4')
+                                       }
+                                      }
+                                   } 
    error: false
 }
