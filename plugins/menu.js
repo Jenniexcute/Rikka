@@ -7,7 +7,7 @@ exports.run = {
       isPrefix
    }) => {
       try {
-      let captions = ` ❑  *I N F O - B O T*\n\n◦  Sistem otomatis (WhatsApp Bot) yang dapat membantu untuk melakukan sesuatu, mencari dan mendapatkan data/informasi hanya melalui WhatsApp.\n\n❑ *N O T E* \n\n◦   Gunakan bot di private message agar bot merespon dengan cepat, \n\n◦  Beri jeda  yah kak ｡⁠◕⁠‿⁠◕⁠｡\nSource code: https://youtu.be/MGDsPKQFVAo
+      let captions = ` ❑  *I N F O - B O T*\n\n◦  An automated system (WhatsApp Bot) that can help to do things, search and get data/information only through WhatsApp.\n\n❑ *N O T E* \n\n◦ Use bots in private messages so that bots respond quickly, \n\ n Give it a pause, sis
  ❑  *U S E R - I N F O*
       
 ◦  ${isPrefix}limit 
@@ -168,15 +168,12 @@ exports.run = {
 ◦  ${isPrefix}list 
 ◦  ${isPrefix}owner 
 ◦  ${isPrefix}premium 
-◦  ${isPrefix}runtime
-❑ *T Q - T O*
-◦ Swift
-◦ FARUQOFC`
+◦  ${isPrefix}runtime`
       client.sendMessageModify(m.chat, captions, m, {
-               title: 'Kanna bot',
+               title: 'Soobis! bot',
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d5c31ad3dfeb93c67171c.jpg'),
-               url: ''
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/f88b7db92a75ff1d2bb8d.jpg'),
+               url: 'https://chat.whatsapp.com/FKB3BjBGMYjBJZfJXjEAOa'
             })
       } catch (e) {
          client.reply(m.chat, Func.jsonFormat(e), m)
