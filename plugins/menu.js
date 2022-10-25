@@ -181,15 +181,5 @@ exports.run = {
       }
    },
     message: { 
-                                "videoMessage": { 
-                                "title": `Soobin!`,
-                                "h": `Miku`,
-                                'duration': '99999', 
-                                'gifPlayback': 'true', 
-                                'caption': `Tzuyu`,
-                                'jpegThumbnail': fs.readFileSync('./media/lucky.mp4')
-                                       }
-                                      }
-                                   } 
-   error: false
+error: false
 }
