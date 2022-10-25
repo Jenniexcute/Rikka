@@ -24,7 +24,7 @@ global.chatai_key = 'MKPsfkgXLZPGrWoH'
 // Source version
 global.version = '5.4.7',
 // Footer text
-global.footer = 'Rikka bot'
+global.footer = 'Soobins! bot'
 // Global status
 global.status = Object.freeze({
    wait: Func.texted('bold', 'Processed . . .'),
