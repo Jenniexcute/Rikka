@@ -31,7 +31,7 @@ exports.run = {
                
                }).then(async () => {
                client.sendFile(m.chat, json.data.url, json.data.filename, '', m, {
-                  document: true,
+                  document: false,
                   APIC: await Func.fetchBuffer(json.thumbnail)
                })
             })
